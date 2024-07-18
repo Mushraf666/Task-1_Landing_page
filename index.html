@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html  lang="en"> 
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="style.css">
+	<title>The Art Gallery</title>
+	
+</head>
+<body>
+	<nav>
+		<div class="heading">The Art Gallery</div>
+		
+		<div class="navbar">
+			<ul>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Artworks</a></li>
+				<li><a href="#">Buy</a></li>
+				<li><a href="#">Contact us</a></li>
+			</ul>
+		</div>
+		<span class="sideMenuButton" onclick="openNavbar()">☰</span>
+	</nav>
+	
+	<div class="sideNavigationBar" id="sideNavigationBar">
+        <a href="#" class="closeButton" onclick="closeNavbar()">❌</a>
+        <a href="#Home">Home</a>
+        <a href="#">About</a>
+		<a href="#">Artworks</a>
+		<a href="#">Buy</a>
+		<a href="#">Contact us</a>
+    </div>
+	
+	<!--<div class="line0">-->
+	<div class="line" id="Home">
+        <div class="side1">
+            <h1>The Art Gallery</h1>
+			<p>Choose your Art</p>
+        </div>
+        <!--<div class="side2">
+            <img src="C:\Users\vikra\Desktop\landing page\image\a.jpg" width="500">
+        </div>-->
+    </div>
+	<!--</div>-->
+	
+	<section class="pas" id="items">
+	<div class="content">
+		<div class="title">
+			<span>Artworks</span>
+		</div>
+		<div class="gallery-wrap">
+			<img src="image/back.png" id="backBtn">
+				<div class="gallery">
+					<div>
+						<img src="image/b.jpg">
+						<img src="image/c.jpg">
+						<img src="image/d.jpg">
+					</div>
+					<div>
+						<img src="image/e.jpg">
+						<img src="image/j.jpg">
+						<img src="image/g.jpg">
+					</div>
+					<div>
+						<img src="image/k.jpg">
+						<img src="image/i.jpg">
+						<div class="viewbtn">
+							<button><a href="#">View More</a></button>
+						</div>
+					</div>
+				</div>
+			<img src="image/next.png" id="nextBtn">
+		</div>
+	</div>
+	</section>
+	
+	<section class="about">
+	<div class="content">
+		<div class="title">
+			<span>All About Us</span>
+		</div>
+		<div class="outbox">
+			<div class="textbox">
+				<p>India has been a land of rich in culture and religion. 
+				Art has been an very integral force in our culture depicting 
+				various testimony to famous idols, landmarks and manuscripts. 
+				of artworks in various forms including decor, portraits across 
+				doorways, guest rooms. Some of the traditional painting also 
+				depict the historical significant elements of Ajanta & Ellora, 
+				Mughals, Indian Miniature, Love and other related elements. 
+				The evolution in art has been significant from traditional 
+				forms to modern elements influenced highly by evolving 
+				generations and globalization.</p>
+			</div>
+			<div class="imagebox">
+				<img src="image/Hussain.jpg">
+				<img src="image/0110.jpg">
+				<img src="image/Amrita.jpg">
+			</div>
+			<div class="explore"><button>
+                <a href="#">Explore More</a>
+            </button></div>
+		</div>
+	</div>
+	</section>
+	
+	<section class="service">
+        <div class="content">
+            <div class="title">
+                <span>Services</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="#">
+                            Custom Framing
+                        </a>
+                    </div>
+                    <p>
+						Our Custom Framing services make sure you come away 
+						with exactly what you want. Find out more about how 
+						this service can help connect you with the art you love.
+                    </p>
+                </div>
+                <div class="box">
+  
+                    <div class="topic">
+                        <a href="#">
+                            Shipping & Delivery
+                        </a>
+                    </div>
+                    <p>
+                        Our high quality Shipping & Delivery 
+						options have helped us earn a reputation for 
+						service excellence, and a business committed 
+						to customer satisfaction.
+                    </p>
+                </div>
+  
+                <div class="box">
+                    <div class="topic">
+                        <a href="#">
+                            Purchase Support
+                        </a>
+                    </div>
+                    <p>
+						We have partnered with PhonePay, a comprehensive 
+						global payment automation platform to provide a 
+						more secure and seamless process for collecting 
+						banking information and facilitating payouts to 
+						our sellers.
+						
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Contact us</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Mobile</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Mobile here">
+                    </div>
+					<div class="label1">
+                        <label>Message</label>
+                    </div>
+                    <div class="input4">
+                        <textarea id="text1" rows="5" cols="52"
+                            placeholder="Enter your Message here"></textarea>
+					</div>
+                    <div class="button">
+                        <button>Send</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="content1">
+                            I WOULD LOVE TO HEAR FROM YOU
+
+							If you have anything to say or just have an inquiry or if you just want to say 'Hi', 
+							then don't hesitate to write me down. I will get back to you as early as possible. 
+							Either use the form below or drop an email to me or make me a call! Cheers!<br>
+
+							* Inquiry regarding purchase of paintings : Please be sure to mention the Title, Medium and Size of the artwork.<br>
+	
+							* Inquiries regarding Workshops and Demonstration please mention the date and time.<br>
+
+							* All commissions are welcome.
+                        </div>
+						<div class="title1">
+                            <h3>Address</h3>
+                        </div>
+                        <div class="content1">
+							47/49, 3, Dr Vb Gandhi Marg, 
+							Kala Godha, Fort, Mumbai, 
+							Maharashtra, India - 400023
+                        </div>
+						<div class="title1">
+                            <h3>Telephone</h3>
+                        </div>
+						<div class="content1">
+							54654871
+                        </div>
+						<div class="title1">
+                            <h3>Enquires</h3>
+                        </div>
+						<div class="content1">
+							info@myartgallery.com
+							abc@myartgallery.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<footer>
+        <div class="footer">
+            <span>
+                Created By Art Gallery | All rights reserved
+            </span>
+        </div>
+    </footer>
+	<script src="script.js"></script>
+	
+</body>
+</html>
