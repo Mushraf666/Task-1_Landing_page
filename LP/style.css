@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home{
+    background: linear-gradient(#0000008f,#0000008f),url('./assets/back.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.home header{
+    padding: 1.5%;
+    display: flex;
+    background: #304F6F;
+    align-items: center;
+    justify-content: space-between;
+}
+.home .logo{
+    display: flex;
+    align-items: center;
+}
+.home .logo h3{
+    color: white;
+}
+.home .logo img{
+    width: 30px;
+    margin-right: 5px;
+}
+.home header button{
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #32A9DD;
+    color: white;
+}
+
+.main{
+    color: white;
+    padding: 2%;
+    height: 300px;
+    margin-top: 60px;
+    text-align: center;
+}
+.main h1{
+    font-size: 50px;
+}
+.main p{
+    margin-top: 20px;
+}
+.main .btns{
+    margin-top: 20px;
+}
+.main .btns button{
+    width: 100px;
+    height: 30px;
+    background: #304F6F;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.social{
+    margin-top: 50px;
+}
+.social h4{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.social .icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.social .icons i{
+    cursor: pointer;
+}
+ .main .arrow{
+    margin-top: 20px;
+    animation: animate 0.8s linear infinite;
+ }
+
+ @keyframes animate {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(3px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+ }
+
+
+
+section.web{
+    height: 400px;
+    display: flex;
+    padding: 0 3%;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(228, 226, 226); */
+}
+section.web .left img{
+    width: 375px;
+}
+section.web .right{
+    flex-basis: 50%;
+}
+section.web .right h1{
+    text-decoration: underline;
+    text-decoration-color: #32A9DD;
+    text-underline-offset: 5px;
+}
+section.web .right p{
+    line-height: 20px;
+    margin: 10px 0;
+}
+section.web .right button{
+    padding: 10px 20px ;
+    background-color: #32A9DD;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+section.con{
+    padding: 0 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    background-color: rgb(247, 250, 255);
+}
+section.con .left{
+    width: 50%;
+}
+section.con .left p{
+    line-height: 20px;
+    margin: 10px 0;
+}
+section.con .right img{
+    width: 375px;
+}
+section.con .left h1{
+    text-decoration: underline;
+    text-decoration-color: #32A9DD;
+    text-underline-offset: 5px;
+}
+
+section.enc{
+    padding: 0 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+}
+section.enc .left img{
+    height: 375px;
+}
+section.enc .right{
+    width: 50%;
+}
+section.enc .right p{
+    line-height: 20px;
+    margin: 10px 0;
+}
+section.enc .right h1{
+    text-decoration: underline;
+    text-decoration-color: #32A9DD;
+    text-underline-offset: 5px;
+}
+
+section.enc .right button{
+    padding: 10px 20px;
+    background-color: #32A9DD;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.update{
+    padding: 3%;text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.update input{
+    display: block;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    position: relative;
+    margin: 10px 0;
+    left: 50%;
+    text-indent: 10px;
+    transform: translate(-50%,-50%);
+}
+
+.update button{
+    padding: 10px 20px;
+    background-color: #32A9DD;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.update p{
+    color: rgba(82, 80, 80, 0.315);
+    position: absolute;
+    right: 0;
+}
